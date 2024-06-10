@@ -1,0 +1,183 @@
+:root {
+    --primary-nutmeg: hsl(14, 45%, 36%);
+    --primary-darkRaspberry: hsl(332, 51%, 32%);
+    --neutral-white: hsl(0, 0%, 100%);
+    --neutral-roseWhite: hsl(330, 100%, 98%);
+    --neutral-eggShell: hsl(30, 54%, 90%);
+    --neutral-lightGrey: hsl(30, 18%, 87%);
+    --neutral-wengeBrown: hsl(30, 10%, 34%);
+    --neutral-darkCharcoal: hsl(24, 5%, 18%);
+}
+
+/* general styling */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Outfit', serif;
+    font-size: 16px;
+}
+
+body {
+    padding: 2rem 3rem;
+}
+
+header {
+    width: 100%;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+    background-position: center center;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.header-title {
+    margin: 1em 0;
+}
+
+p {
+    margin-bottom: 2em;
+}
+
+/* font-styling */
+.young-serif-regular {
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+    font-style: regular;
+}
+
+.preparation-title {
+    font-weight: 700;
+    font-style: regular;
+}
+
+.bold {
+    font-weight: 700;
+    font-style: regular;
+}
+
+th {
+    font-weight: 400;
+    font-style: regular;
+}
+
+td {
+    font-weight: 700;
+    font-size: large;
+    color: var(--primary-nutmeg);
+}
+
+ul {
+    font-size: 1rem;
+}
+
+.header-subtitle {
+    line-height: 1.5em;
+}
+
+/* Colors */
+.header-title {
+    color: var(--neutral-darkCharcoal);
+}
+
+.preparation-title {
+    color: var(--primary-darkRaspberry);
+}
+
+.section-title {
+    color: var(--primary-nutmeg);
+}
+
+/* title spacing */
+.section-title {
+    margin: .5em 0;
+}
+
+/* background */
+.prep-time-bg {
+    padding: 1.5em;
+    border-radius: 5px;
+    background-color: hsla(332, 51%, 32%, 9%);
+    margin-bottom: 1.5em;
+}
+
+
+.nutrition-table {
+    display: block;
+    padding: 2em;
+}
+
+/* spacing for list items*/
+.preparation-item {
+    margin-left: 1.5em;
+}
+
+.preparation-item li {
+    padding: 0 1em;
+    margin: 1em 0;
+}
+
+.ingredients-item li {
+    margin-left: 1em;
+    padding-left: 1em;
+    margin-bottom: 1em;
+}
+
+.step-process li {
+    margin-left: 1em;
+    padding-left: 1em;
+}
+
+.step-item {
+    margin: .5em 0;
+}
+
+.ingredients h2 {
+    margin-bottom: 1em;
+}
+
+li p {
+    line-height: 1.5em;
+}
+
+/* list markers */
+.step-process li::marker {
+    color: var(--primary-nutmeg);
+    font-weight: 700;
+}
+
+.ingredients-item li::marker {
+    color: var(--primary-nutmeg);
+}
+
+.preparation-item li::marker {
+    color: var(--primary-darkRaspberry);
+}
+
+/* Nutrition Table */
+tbody {
+    display: grid;
+}
+
+tr {
+    display: inline-grid;
+    width: 100%;
+    grid-template-columns:1fr 1fr;
+    border-bottom: 1px solid black;
+    padding: 1em;
+}
+
+th {
+    place-self: start;
+}
