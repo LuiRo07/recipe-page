@@ -181,3 +181,18 @@ tr {
 th {
     place-self: start;
 }
+
+@media only screen and (max-width: 375px) {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    .mobile-content {
+        padding: 1.2rem;
+    }
+
+    .header-title, .header-subtitle {
+        padding: 0 1rem;
+    }
+}
