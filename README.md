@@ -15,5 +15,8 @@ https://www.tutorialspoint.com/How-to-create-space-between-list-bullets-and-text
 ## Styling numbers in an ordered list.
 
 Using the pseudo element: li::marker in a list element, will style the bulletpoints or numbers, this can be useful for setting the color.
-
+Desktop View
 ![127 0 0 1_5500_index html](https://github.com/LuiRo07/recipe-page/assets/71421190/ad15eb6f-cc7f-462b-85ee-20872d729cd1)
+
+Mobile View
+![127 0 0 1_5500_index html (1)](https://github.com/user-attachments/assets/b850004d-90ab-4ad9-b1e4-9c6a3bb7edb4)
