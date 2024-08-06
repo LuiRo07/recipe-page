@@ -18,7 +18,7 @@
 
 html {
     font-family: 'Outfit', serif;
-    font-size: 14x;
+    font-size: 14px;
 }
 
 body {
@@ -183,7 +183,7 @@ th {
     place-self: start;
 }
 
-@media only screen and (max-width: 465px) {
+@media only screen and (max-width: 375px) {
     body {
         padding: 0;
         margin: 0;
