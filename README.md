@@ -22,7 +22,8 @@
 
 
 <!-- Mobile -->
-![127 0 0 1_5500_index html (1)](https://github.com/user-attachments/assets/b850004d-90ab-4ad9-b1e4-9c6a3bb7edb4)
+![127 0 0 1_5500_index html (2)](https://github.com/user-attachments/assets/4a8f87a1-ee5c-475e-a8c6-828399c63c82)
+
 
 
 ### Links
