@@ -1,5 +1,3 @@
-# Frontend Mentor - Recipe page solution
-
 ## Table of contents
 
 - [Overview](#overview)
